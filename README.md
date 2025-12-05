@@ -8,8 +8,8 @@ Se seleccionó Streamlit para el desarrollo de la aplicación web debido a su si
 
 Para resolver el problema logístico planteado, el equipo seleccionó XGBoost como modelo principal de predicción debido a:
 
-  - Su excelente desempeño en problemas con alta variabilidad y relaciones no lineales, como los tiempos logísticos por ruta y condiciones operativas.
-  - Su capacidad para manejar outliers, variables categóricas codificadas y distribuciones irregulares.
-  - Su robustez frente a datos incompletos o con ruido operativo, algo común en entornos reales de transporte.
-  - Su ventaja respecto a modelos tradicionales de series de tiempo, que requieren estacionalidades claras, patrones estables y horizontes estrictamente temporales, condiciones     que no se cumplen en la operación logística en este caso.
-  - Sus métricas de error fueron consistentemente mejores durante la validación cruzada, mostrando mayor capacidad de generalización.
+    - Su excelente desempeño en problemas con alta variabilidad y relaciones no lineales, como los tiempos logísticos por ruta y condiciones operativas.
+    - Su capacidad para manejar outliers, variables categóricas codificadas y distribuciones irregulares.
+    - Su robustez frente a datos incompletos o con ruido operativo, algo común en entornos reales de transporte.
+    - Su ventaja respecto a modelos tradicionales de series de tiempo, que requieren estacionalidades claras, patrones estables y horizontes estrictamente temporales,       condiciones     que no se cumplen en la operación logística en este caso.
+    - Sus métricas de error fueron consistentemente mejores durante la validación cruzada, mostrando mayor capacidad de generalización.
