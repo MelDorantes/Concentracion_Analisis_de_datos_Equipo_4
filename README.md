@@ -17,6 +17,10 @@ Para resolver el problema logístico planteado, el equipo seleccionó XGBoost co
 
 Se utilizó Pandas para la limpieza, transformación y manejo de los datos. Su eficiencia en la manipulación de estructuras tipo DataFrame y sus herramientas de preprocesamiento lo convierten en el estándar para análisis de datos en Python.
 
+* **Bases de datos**
+    -En este repositorio estamos incluyendo las bases originales de Viajes y Reporte de Fallas para que se puedan correr con el código de limpieza incluido en notebook/
+    -De manera adicional, también se están incluyendo las bases de datos **limpias** para que solo se pueda correr el código del modelo de XGBoost.
+    
 * **Visualización: Plotly y Altair**
     -Plotly permite construir visualizaciones altamente interactivas, ideales para dashboards que requieren dinamismo, zoom, filtros y análisis exploratorio.
     -Altair, por su sintaxis declarativa, permitió construir gráficos limpios y consistentes para análisis descriptivos más detallados.
