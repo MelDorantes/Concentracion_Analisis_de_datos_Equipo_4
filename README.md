@@ -13,3 +13,19 @@ Para resolver el problema logístico planteado, el equipo seleccionó XGBoost co
     - Su robustez frente a datos incompletos o con ruido operativo, algo común en entornos reales de transporte.
     - Su ventaja respecto a modelos tradicionales de series de tiempo, que requieren estacionalidades claras, patrones estables y horizontes estrictamente temporales,       condiciones     que no se cumplen en la operación logística en este caso.
     - Sus métricas de error fueron consistentemente mejores durante la validación cruzada, mostrando mayor capacidad de generalización.
+
+* **Manipulación de Datos: Pandas**
+
+Se utilizó Pandas para la limpieza, transformación y manejo de los datos. Su eficiencia en la manipulación de estructuras tipo DataFrame y sus herramientas de preprocesamiento lo convierten en el estándar para análisis de datos en Python.
+
+* **Visualización: Plotly y Altair**
+
+        -Plotly permite construir visualizaciones altamente interactivas, ideales para dashboards que requieren dinamismo, zoom, filtros y análisis exploratorio.
+
+        -Altair, por su sintaxis declarativa, permitió construir gráficos limpios y consistentes para análisis descriptivos más detallados.
+
+El uso combinado de ambas bibliotecas permite comunicar resultados de forma clara, profesional y accesible para la toma de decisiones.
+
+## **Instrucciones para Ejecutar la Aplicación**
+
+1. Clonar el repositorio
