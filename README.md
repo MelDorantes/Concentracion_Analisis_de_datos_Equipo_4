@@ -28,4 +28,20 @@ El uso combinado de ambas bibliotecas permite comunicar resultados de forma clar
 
 ## **Instrucciones para Ejecutar la Aplicación**
 
-1. Clonar el repositorio
+1. Clonar el repositorio: `git clone <URL_DEL_REPOSITORIO>` o `cd <nombre_del_repositorio>`
+2. Instalar las dependencias: `pip install -r requirements.txt`
+3. Ejecutar la aplicación: `python3 -m streamlit run <Nombre del archivo en py>`
+4. Abrir en el navegador la URL que indica Streamlit por ejemplo: http://localhost:8501
+
+## **Justificación del Enfoque de Predicción**
+
+El enfoque de predicción se centra en estimar el lead time por sucursal utilizando XGBoost debido a que el comportamiento logístico observado presenta:
+
+    -Alta variabilidad entre rutas y horarios
+    -Relaciones no lineales entre variables operativas (unidad, ruta, carga, hora, historial reciente)
+    -Presencia de outliers y ruido propio de las operaciones
+    -Variables categóricas que influyen en el resultado de manera compleja
+
+Modelos tradicionales basados en series de tiempo no fueron adecuados para este caso, ya que dependen de estacionalidades claras y patrones temporales estables, los cuales no están presentes en los datos operativos. Por el contrario, XGBoost permitió capturar interacciones complejas y comportamientos irregulares sin necesidad de suposiciones estrictas sobre la estructura temporal.
+
+Aunque la calidad del modelo mejora a medida que se enriquecen las variables (por ejemplo, incorporando rezagos, viajes en vacío o indicadores mecánicos) los resultados actuales muestran que XGBoost es el método más robusto y que mejor se ajusta al comportamiento real del sistema. Esto justifica su uso como modelo final para las proyecciones.
