@@ -3,7 +3,7 @@
 ## **Justificación de las Tecnologías Utilizadas**
 * **Web/Dashboard: Streamlit**
 
-Se seleccionó Streamlit para el desarrollo de la aplicación web debido a su simplicidad, rapidez de implementación y facilidad para integrar modelos de machine learning y visualizaciones interactivas. Streamlit permite construir dashboards robustos sin necesidad de manejar configuraciones web complejas, lo cual acelera el desarrollo y facilita la presentación de resultados al socio formador. Además, su compatibilidad con bibliotecas como Plotly y Altair permite crear interfaces dinámicas con filtros, selectores y visualizaciones altamente interactivas.
+Se seleccionó Streamlit para el desarrollo de la aplicación web debido a su simplicidad, rapidez de implementación y facilidad para integrar modelos de machine learning y visualizaciones interactivas. Streamlit permite construir dashboards robustos sin necesidad de manejar configuraciones web complejas, lo cual acelera el desarrollo y facilita la presentación de resultados al socio formador. Además, su compatibilidad con bibliotecas como Plotly y Altair permite crear graficos dinámicas con filtros, selectores y visualizaciones altamente interactivas.
 * **Modelos Predictivos: XGBoost**
 
 Para resolver el problema logístico planteado, el equipo seleccionó XGBoost como modelo principal de predicción debido a:
